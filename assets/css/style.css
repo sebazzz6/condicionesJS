@@ -1,0 +1,85 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+nav a{
+    color: #000;
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+} 
+
+nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color: lightblue;
+    text-align:center;
+}
+
+nav li:hover{
+    background-color:#fff;
+    color:lightcoral;
+}
+
+.imgBorderClass{
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.container3{
+    text-align: center;
+}
+
+.btnChangeBorder{
+    color: white;
+    padding: 5px;
+    background-color: #007bff;
+    margin-top: 10px;
+}
+
+.btnVerified{
+    color: white;
+    padding: 5px;
+    background-color: #007bff;
+    margin-top: 10px;
+}
+
+.btnVerifiedContainer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.poster{
+    height: 400px;
+    width: 250px;
+}
+
+.headerTextPano{
+    margin-top: 30px;
+}
+
+.verifiedBox{
+    margin-top: 30px;
+}
